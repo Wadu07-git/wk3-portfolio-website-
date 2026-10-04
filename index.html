@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- This line makes the page scale properly on phones -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YOUR NAME | Web Design Portfolio</title>
+  <meta name="description" content="Personal portfolio of YOUR NAME, a student learning web design.">
+  <!-- All styling lives in the external file, no inline styles used -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Skip link helps keyboard users jump past the menu -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <p class="logo">Sanjiv Dahal</p>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Hero / intro section -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Hi, I'm Sanjiv Dahal. I build simple, clean websites.</h1>
+          <p>I am a Bachelor student studying web design and I enjoy turning plain ideas into pages that are easy to read and use.</p>
+          <a class="btn" href="#projects">See my work</a>
+        </div>
+        <!-- Put your photo inside the images folder and name it profile.jpg -->
+        <img class="hero-img" src="profile.png" alt="Portrait of Sanjiv Dahal" width="320" height="320">
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About me</h2>
+        <p>I am currently studying at IAU and learning how HTML, CSS and Git work together. My goal is to become a front-end developer who cares about good design and accessibility.</p>
+        <p>Outside of class I like exploring new tools and improving small projects a little every week.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2>Projects</h2>
+        <!-- Grid of cards, shown in columns on bigger screens -->
+        <div class="card-grid">
+          <article class="card">
+            <h3>Personal Portfolio</h3>
+            <p>This website. Built with semantic HTML and a custom CSS file, then published with GitHub Pages.</p>
+          </article>
+          <article class="card">
+            <h3>Recipe Page</h3>
+            <p>A small page that practices headings, lists and images. Good for learning structure.</p>
+          </article>
+          <article class="card">
+            <h3>Class Schedule</h3>
+            <p>A table based project that shows my weekly classes in a clear layout.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Flexbox and Grid</li>
+          <li>Responsive design</li>
+          <li>Git and GitHub</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Want to talk about a project? Send me an email at <a href="mailto:youremail@example.com">dahalsanjiv@gmail.com</a>.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Sanjiv Dahal. Made for Web Design, Week 3 Assignment.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
